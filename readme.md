@@ -3,6 +3,8 @@
 - `sudo apt-get install git docker docker-compose -y`
 - Копируем файлы с репозитория в рабочую папку:
 - `git clone https://github.com/Kit1001/test_tgbot.git`
+- Переходим в папку проекта
+- `cd test_tgbot`
 - Прописываем токен бота в файл .env, в поле TOKEN
 - Запускаем оркестратор:
 - `sudo docker-compose up --detach`
