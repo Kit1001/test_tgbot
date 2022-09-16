@@ -1,15 +1,14 @@
+version: "3"
 services:
   db:
     image: postgres
     privileged: true
-    ports:
-      - 5432:5432
+    expose:
+      - 5432
     env_file:
       - .env
 
   app:
     build: ./
-    env_file:
-      - .env
     depends_on:
       - db

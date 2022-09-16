@@ -7,7 +7,7 @@
 - `cd test_tgbot`
 - Прописываем токен бота в файл .env, в поле TOKEN
 - Запускаем оркестратор:
-- `sudo docker-compose up --detach`
+- `sudo docker-compose up -d`
 
 
 #### Примечания
