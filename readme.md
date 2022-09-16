@@ -5,7 +5,7 @@
 - `git clone https://github.com/Kit1001/test_tgbot.git`
 - Прописываем токен бота в файл .env, в поле TOKEN
 - Запускаем оркестратор:
-- `sudo docker-compose --detach up`
+- `sudo docker-compose up --detach`
 
 
 #### Примечания
